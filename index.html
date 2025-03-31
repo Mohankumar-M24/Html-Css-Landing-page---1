@@ -503,11 +503,13 @@
         .mike-page {
             position: absolute;
             display: inline;
-            text-align: left;
+            /* text-align: left; */
+            /* place-content: center; */
             top: 420%;
             width: 25%;
-            right: 20% 0%;
+            place-items: center;
             margin: 0% 0%;
+            
         }
 
         .mike-sub {
@@ -751,7 +753,79 @@
             color: #666666;
         }
 
-  
+        .the-three-area {
+        display: flex;
+        place-content: center;
+      }
+
+      .the-only{
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            /* width: 300px; */
+            border: 1px;
+            padding: 18px;
+            margin:auto;
+            place-content: center;
+            /* height: 90%; */
+            background-color: #FEFCFB;
+            /* background-color: #FD8D3A; */
+           
+        }
+
+        .the-three-area2{
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            /* width: 300px; */
+            border: 1px;
+            padding: 18px;
+            margin:auto;
+            /* height: 90%; */
+            background-color: #FEFCFB;
+            /* background-color: #FD8D3A; */
+
+        }
+
+        .the-three-area3{
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            /* width: 300px; */
+            border: 1px;
+            padding: 18px;
+            margin: 300px 10px;
+            /* height: 90%; */
+            background-color: #FEFCFB;
+            /* background-color: #FD8D3A; */
+
+        }
+
+        .the-change1{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .rome{
+            font-family: ;
+            color: #222222;
+            font-weight: 900;
+            font-size:larger;
+        }
+
+        .dollar-val{
+            color: #FA7436;
+            font-size: 22px;
+            font-weight: 800;
+        }
+
+        .day-trip{
+            color: #666666;
+            font-size:large;
+        }
+
+        .the-single-star{
+            color: #666666;
+            font-size:large;
+        }
+      
     </style>
 </head>
 
@@ -972,12 +1046,69 @@
                 all-inclusive offers!</div>
         </div>
 
+        <!-- the start of three places  -->
 
-        <div class="japan">
-            <div class="column"><img src="romenew1.png"></div>
-            <div class="column"><img src="londonew1.png"></div>
-            <div class="column"><img src="osakanew1.png"></div>
-            <div class="btn1-22">
+        <div class="the-three-area">
+
+            <div class="the-only">
+                <img src="italy111.png" alt="" />
+                
+                <br><br><br>
+        
+                <div class="the-change1">
+                    <div class="rome">&nbsp;&nbsp;&nbsp;Rome, Italy</div>
+                    <div class="dollar-val"><b>$5,42k</b>  </div>
+                </div>
+        
+                <br>
+        
+                <div class="the-change1">
+                    <div class="day-trip"><i><img src="aerosmall.png" alt=""></i>&nbsp;&nbsp;10 Days Trip</div>
+                    <div class="the-single-star"><i><img src="star 1.png" alt=""></i>&nbsp;&nbsp;4.8</div>
+                </div>
+              </div>
+    
+          <div class="the-three-area2">
+            <img src="london2.png" alt="" />
+    
+            <br><br><br>
+    
+            <div class="the-change1">
+                <div class="rome">London,UK</div>
+                <div class="dollar-val">$2,42k</div>
+            </div>
+    
+            <br>
+    
+            <div class="the-change1">
+                <div class="day-trip"><i><img src="aerosmall.png" alt=""></i>&nbsp;&nbsp;07 Days Trip</div>
+                <div class="the-single-star"><i><img src="star 1.png" alt=""></i>&nbsp;&nbsp;4.7</div>
+            </div>
+          </div>
+    
+          <div class="the-three-area3">
+            <img src="japan3.png" alt="" />
+            
+            <br><br><br>
+    
+            <div class="the-change1">
+                <div class="rome">Osaka, Japan</div>
+                <div class="dollar-val">$5,42k</div>
+            </div>
+    
+            <br>
+    
+            <div class="the-change1">
+                <div class="day-trip"><i><img src="aerosmall.png" alt=""></i>&nbsp;&nbsp;10 Days Trip</div>
+                <div class="the-single-star"><i><img src="star 1.png" alt=""></i>&nbsp;&nbsp;4.8</div>
+            </div>
+          </div>
+    
+        </div>
+
+        <!-- the end of three images -->
+            
+            <div class="btn1-22">            
                 <div class="btn-aero"><img src="Btn-1.png"></div>
                 <div class="btn-aero"><img src="Btn-2.png"></div>
             </div>
@@ -1114,12 +1245,13 @@
             </div>
             <div>             
                 <div class="footer-end">
-
-                   
-
                     <div class="end-cont1">Copyright Trabook 2022. All rights recerived.</div>
                     <div class="end-cont2">Terms & Conditions</div>
                 </div>
+                </div>
+
+
+
 </body>
 
 </html>
