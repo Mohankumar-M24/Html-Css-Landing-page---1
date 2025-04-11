@@ -27,15 +27,18 @@
             margin: 0;
             padding: 0% 0%;
             box-sizing: border-box;
+            
 
         }
 
         body {
-            height: autoh;
+            height: auto;
+            width: auto;
             margin: 0;
-            padding: .5% 10%;
+            padding: .10% 10%;
             box-sizing: border-box;
             background-color: #FEFCFB;
+            overflow-x: hidden;
         }
 
         .parent {
@@ -119,6 +122,7 @@
 
         .parent1 {
             display: flex;
+            /* flex-direction: column; */
             /*   */
         }
 
@@ -495,18 +499,18 @@
         .btn1-22 {
             display: flex;
             position: absolute;
-            padding: 0% 0% 45% 60%;
+            padding: 15% 0% 0% 60%;
             cursor: pointer;
             margin: 0% 80% 0px;
         }
 
         .mike-page {
             position: absolute;
-            display: inline;
+            /* display: inline; */
             /* text-align: left; */
             /* place-content: center; */
             top: 420%;
-            width: 25%;
+            width: 25% ;
             place-items: center;
             margin: 0% 0%;
             
@@ -804,7 +808,7 @@
         }
 
         .rome{
-            font-family: ;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
             color: #222222;
             font-weight: 900;
             font-size:larger;
@@ -825,7 +829,71 @@
             color: #666666;
             font-size:large;
         }
-      
+
+
+      /*  @media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .body {
+    padding: 20px;
+  }
+
+  .parent{
+    width: 90% !important;
+    font-size: smaller !important;
+    background-color: lightgreen !important;
+  }
+
+  .final-bar{
+    width: 20%;
+  }
+
+  .final-log{
+    width: 0%;
+  }
+
+  .get-start{
+    width: 90% !important;
+  }
+
+ 
+  .images-top{
+    height: 0%;
+  }
+
+  .plane-top{
+    position: absolute;
+    width: 10%;
+    height: -170%;
+    margin: -10% 60% -80% 70% !important;
+  }
+
+
+  .boy-ontop{
+    height: 0% 50%;
+  }
+
+  .boy-ontop1{
+    height: 70%;
+    width: 150%;
+  }
+
+  .card11{
+    height: 100%;
+    width: 1500%;
+  }
+
+  .card12{
+    height: 100%;
+    width: 1500%;
+  }
+
+  .card13{
+    height: 100%;
+    width: 1500%;
+  }
+
+}
+*/
+
     </style>
 </head>
 
@@ -851,8 +919,7 @@
     </head>
     <div class="parent1">
         <div class="content">
-            <div class="get-start" style="width:63%;">Get started your exciting <span
-                    style="color: #FA7436;">journey</span>
+            <div class="get-start" style="width:63%;">Get started your exciting <span style="color: #FA7436;">journey</span>
                 with us.</div>
             <br>
             <div class="a-team">
@@ -864,11 +931,11 @@
             <div><button class="disco-now">Discover Now</button><br></div>
         </div>
         <div class="images-top">
-            <div class="plane-top"><img src="aeroplane.png" width="700" height="180"></div>
-            <div class="boy-ontop"><img src="top.png" height="450"></div>
-            <div class="card1"><img src="Card-1.png"></div>
-            <div class="card2"><img src="Card-2.png" height="120"></div>
-            <div class="card3"><img src="Card-3.png" height="120"></div>
+            <div class="plane-top"><img class="plane-top1" src="aeroplane.png" width="700" height="180"></div>
+            <div class="boy-ontop"><img class="boy-ontop1" src="top.png" height="450"></div>
+            <div class="card1"><img class="card11" src="Card-1.png"></div>
+            <div class="card2"><img class="card12" src="Card-2.png" height="120"></div>
+            <div class="card3"><img class="card13" src="Card-3.png" height="120"></div>
         </div>
     </div>
 
@@ -1046,9 +1113,15 @@
                 all-inclusive offers!</div>
         </div>
 
+        <br><br>
         <!-- the start of three places  -->
 
         <div class="the-three-area">
+
+            <div class="btn1-22">            
+                <div class="btn-aero"><img src="Btn-1.png"></div>
+                <div class="btn-aero"><img src="Btn-2.png"></div>
+            </div>
 
             <div class="the-only">
                 <img src="italy111.png" alt="" />
@@ -1108,10 +1181,7 @@
 
         <!-- the end of three images -->
             
-            <div class="btn1-22">            
-                <div class="btn-aero"><img src="Btn-1.png"></div>
-                <div class="btn-aero"><img src="Btn-2.png"></div>
-            </div>
+         
         </div>
 
         <!-- ---------------Next---------------- -->
@@ -1138,9 +1208,9 @@
                 </div>
                 <div class="venky-img"><img src="venky.png"></div>
             </div>
-        </div>
+         </div>
 
-        <div class="header-update">
+         <div class="header-update">
             Get update with <span style="color: #FA7436;">latest blog<span>
          </div><br><br><br><br><br>
 
